@@ -72,18 +72,22 @@ html {
   background-color: var(--bg);
 }
 
-.bg-gray-100, .bg-white {
-  background-color: var(--surface) !important;
+.bg-gray-100,
+.bg-white {
+  background-color: var(--bg) !important;
 }
 
 /* Global Input Fix for Tailwind Form Fields */
-input, textarea, select {
+input,
+textarea,
+select {
   background-color: var(--surface-soft) !important;
   color: var(--text) !important;
   border: 1px solid var(--border) !important;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: var(--text-muted) !important;
 }
 
