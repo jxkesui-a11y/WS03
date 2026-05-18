@@ -104,7 +104,7 @@ loadPartial('showcase-search');
     </div>
 </section>
 
-`<section class="container mx-auto max-w-6xl px-4 mb-16 cta-banner-section">
+<section class="container mx-auto max-w-6xl px-4 mb-16 cta-banner-section">
     <div class="cta-banner">
         <div>
             <h2>Post a Job Opening</h2>
@@ -115,7 +115,7 @@ loadPartial('showcase-search');
             Post a Job
         </a>
     </div>
-</section>`
+</section>
 <?php
 loadPartial('footer');
 ?>
